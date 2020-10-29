@@ -1,0 +1,8 @@
+{
+	"name": "Weather Underground in m/s",
+	"description": "Convert wind speed at Weather Underground pages to m/s.",
+	"version": "1.0",
+	"content_scripts": [{"matches": ["https://www.wunderground.com/*"], "js": ["contentScript.js"]}],
+	"icons": {"32": "favicon.png"},
+	"manifest_version": 2
+}
